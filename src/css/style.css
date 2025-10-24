@@ -314,15 +314,18 @@ header p {header p {
 
     gap: 10px;}
 
-}    margin: 0 auto;
-
+    margin: 0 auto;
     padding: 20px;
+}
 
 #volume-slider {}
 
-    width: 100px;
+    #volume-slider {
+        width: 100px;
+    }
 
-    height: 6px;h1 {
+        height: 6px;
+    h1 {
 
     background: rgba(255, 255, 255, 0.3);    text-align: center;
 
