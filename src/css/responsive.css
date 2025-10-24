@@ -1,0 +1,30 @@
+@media (max-width: 768px) {
+    .player {
+        width: 100%;
+        height: auto;
+    }
+
+    .controls {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .playlist {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .player {
+        height: 200px;
+    }
+
+    .controls button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .playlist {
+        font-size: 12px;
+    }
+}
